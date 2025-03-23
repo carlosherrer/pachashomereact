@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import './home.pachas.css';
 import Navbar from '../components/navbar';
 import Footer from '../components/footer';
@@ -7,6 +8,7 @@ import Ubication from '../components/ubitaction';
 const Homepachas = () => {
 
   const [showMap, setShowMap] = useState(false);
+  const navigate = useNavigate();
 
   const toggleMap = () => {
     setShowMap(!showMap);
@@ -19,7 +21,6 @@ const Homepachas = () => {
       </div>
       <div className="bg-[#fee5ca]">
         
-        {/* Sección Parallax Principal */}
         <div className="relative bg-black">
           <div className="parallax" style={{ backgroundImage: "url('Mariachis.JPG')" }}>
             <div className="image-overlay"></div>
@@ -27,13 +28,12 @@ const Homepachas = () => {
               <p className="text-8xl font-bold hover:text-red-600 tracking-tighter">PACHAS PARRILLAS</p>
               <p className="text-4xl font-semibold tracking-widest">EL SABOR DE GENERACIONES</p>
               <div className="bg-[#ae9a64] hover:bg-[#323232] text-white hover:text-[#ae9a64] inline-block px-14 py-2 rounded-md">
-                <p className="text-3xl font-bold tracking-wider cursor-pointer">Carta</p>
+                <p className="text-3xl font-bold tracking-wider cursor-pointer" onClick={() => navigate('/carta')}>Carta</p>
               </div>
             </div>
           </div>
         </div>
 
-        {/* Sección Parallax Restaurante */}
         <div className="relative bg-black">
           <div className="parallax2" style={{ backgroundImage: "url('comida-restaurante.jpg')" }}>
             <div className="image-overlay2"></div>
@@ -41,7 +41,6 @@ const Homepachas = () => {
               <p className="text-6xl font-bold tracking-widest text-[#ae9a64]">EL RESTAURANTE</p>
               <div className="flex justify-around w-full mt-10 text-center px-12">
                 
-                {/* Información 01 */}
                 <div className="grid gap-8 w-11/12">
                   <p className="font-bold text-2xl text-[#ae9a64]">01</p>
                   <div className="gap-8 grid text-white">
@@ -50,7 +49,6 @@ const Homepachas = () => {
                   </div>
                 </div>
                 
-                {/* Información 02 */}
                 <div className="grid gap-8 w-11/12">
                   <p className="font-bold text-2xl text-[#ae9a64]">02</p>
                   <div className="gap-8 grid text-white">
@@ -59,7 +57,6 @@ const Homepachas = () => {
                   </div>
                 </div>
                 
-                {/* Información 03 */}
                 <div className="grid gap-8 w-11/12">
                   <p className="font-bold text-2xl text-[#ae9a64]">03</p>
                   <div className="gap-8 grid text-white">
@@ -73,7 +70,6 @@ const Homepachas = () => {
           </div>
         </div>
 
-        {/* Sección Imágenes Hover */}
         <div className="flex gap-10 justify-center py-12 z-0">
           
           {["delivery.jpg", "recojo-tienda.jpg", "festividades.jpg", "reservas.jpg"].map((image, index) => (

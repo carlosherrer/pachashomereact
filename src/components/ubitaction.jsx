@@ -4,7 +4,6 @@ const Ubication = ({ showMap, toggleMap }) => {
   return (
     <div className="flex justify-end p-4 fixed bottom-10 right-5 z-[9999]">
       
-      {/* Contenedor del Mapa */}
       <div
         className={`absolute bottom-20 left-1/2 -translate-x-1/2 bg-white transition-all duration-500 p-2 rounded-2xl shadow-lg text-center w-auto min-w-[250px] flex items-center justify-center pointer-events-auto 
           ${showMap ? 'max-h-[300px] opacity-100' : 'max-h-0 overflow-hidden opacity-0'}`}
@@ -26,7 +25,6 @@ const Ubication = ({ showMap, toggleMap }) => {
         </a>
       </div>
 
-      {/* Botón para Mostrar/Ocultar Mapa */}
       <div
         onClick={toggleMap}
         className="flex max-w-[250px] gap-2 bg-red-600 p-4 rounded-2xl justify-center items-center text-white font-semibold text-lg cursor-pointer min-w-[250px]"
