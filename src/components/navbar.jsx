@@ -11,7 +11,7 @@ const Navbar = () => {
         <h1 onClick={() => navigate('/')} className='cursor-pointer text-[#323232] tracking-wide hover:text-white transition-colors duration-300 font-bold'>Inicio</h1>
         <h1 onClick={() => navigate('/carta')} className='cursor-pointer text-[#323232] tracking-wide hover:text-white transition-colors duration-300 font-bold'>Carta</h1>
         <h1 onClick={() => navigate('/eventos')} className='cursor-pointer text-[#323232] tracking-wide hover:text-white transition-colors duration-300 font-bold'>Eventos</h1>
-        <h1 onClick={() => navigate('/blog')} className='cursor-pointer text-[#323232] tracking-wide hover:text-white transition-colors duration-300 font-bold'>Blog</h1>
+        {/* <h1 onClick={() => navigate('/blog')} className='cursor-pointer text-[#323232] tracking-wide hover:text-white transition-colors duration-300 font-bold'>Blog</h1> */}
       </div>
       <div className="bg-[#323232]">
         <div className="py-1 flex justify-center">

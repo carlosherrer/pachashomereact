@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1,
+        "name": "Sacada de luto 1 año",
+        "description": "El año 2024, en nuestro restaurante tuvimos el honor de ser el espacio para una emotiva ‘sacada de luto’ en conmemoración de un ser querido. Agradecemos a la familia por confiar en nosotros para este momento especial.",
+        "imglink": "https://i.ibb.co/Kp8QBNDQ/IMG-0211.jpg",
+        "morelinks": [
+            "https://www.youtube.com/embed/PqffzSe5SQE",
+            "https://www.youtube.com/embed/cdLTWwcrBgk",
+            "https://www.youtube.com/embed/VzKmLywVuc4"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Sacada de luto 2 año",
+        "description": "El año 2025, en nuestro restaurante tuvimos el honor de ser el espacio para una emotiva ‘sacada de luto’ en conmemoración de un ser querido. Agradecemos a la familia por confiar en nosotros para este momento especial.",
+        "imglink": "https://i.ibb.co/Kp8QBNDQ/IMG-0211.jpg",
+        "morelinks": [
+            "https://www.youtube.com/embed/PqffzSe5SQE",
+            "https://www.youtube.com/embed/cdLTWwcrBgk",
+            "https://www.youtube.com/embed/VzKmLywVuc4"
+        ]
+    }
+]

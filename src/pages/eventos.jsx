@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../components/navbar'
+import ImageComponent from '../components/image.component'
 
 const Eventos = () => {
   return (
@@ -8,7 +9,7 @@ const Eventos = () => {
             <Navbar/>
         </div>
         <div>
-            <h1>Eventos</h1>
+            <ImageComponent/>
         </div>
     </div>
   )
