@@ -27,8 +27,8 @@ const Homepachas = () => {
             <div className="absolute inset-0 flex flex-col justify-center text-center items-center text-white gap-14 md:gap-4">
               <p className="text-6xl md:text-8xl font-bold hover:text-red-600 tracking-tighter">PACHAS PARRILLAS</p>
               <p className="text-4xl font-semibold tracking-widest">EL SABOR DE GENERACIONES</p>
-              <div className="bg-[#ae9a64] hover:bg-[#323232] text-white hover:text-[#ae9a64] inline-block px-14 py-2 rounded-md">
-                <p className="text-3xl font-bold tracking-wider cursor-pointer" onClick={() => navigate('/carta')}>Carta</p>
+              <div className="cursor-pointer bg-[#ae9a64] hover:bg-[#323232] text-white hover:text-[#ae9a64] inline-block px-14 py-2 rounded-md" onClick={() => navigate('/carta')}>
+                <p className="text-3xl font-bold tracking-wider cursor-pointer">Carta</p>
               </div>
             </div>
           </div>
