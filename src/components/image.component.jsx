@@ -23,7 +23,7 @@ const ImageComponent = () => {
 
       <div className="absolute grid grid-cols-1 gap-4 py-4 px-4 lg:px-96">
         {data.map((item) => (
-          <div key={item.id} className="grid grid-cols-2 p-2 rounded-lg bg-white cursor-pointer" onClick={() => openModal(item)}>
+          <div key={item.id} className="grid xl:grid-cols-2 p-2 rounded-lg bg-white cursor-pointer" onClick={() => openModal(item)}>
             <div className="flex justify-end items-center">
               <img src={item.imglink} className="object-cover rounded-lg" alt={item.name} />
             </div>
