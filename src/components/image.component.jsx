@@ -17,7 +17,7 @@ const ImageComponent = () => {
 
   return (
     <div className="relative min-h-screen">
-      <div className="fixed  inset-0 -z-10 bg-cover bg-center" style={{ backgroundImage: "url('/public/fondo.jpg')" }}></div>
+      <div className="fixed  inset-0 -z-10 bg-cover bg-center" style={{ backgroundImage: "url('/fondo.jpg')" }}></div>
 
       <div className="fixed inset-0 bg-black opacity-50 -z-10"></div>
 
