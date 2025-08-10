@@ -4,6 +4,7 @@ import './home.pachas.css';
 import Navbar from '../components/navbar';
 import Footer from '../components/footer';
 import Ubication from '../components/ubitaction';
+import Whatsapp from '../components/whatsapp';
 
 const Homepachas = () => {
 
@@ -104,7 +105,10 @@ const Homepachas = () => {
         <div>
         </div>
       </div>
-        <Ubication showMap={showMap} toggleMap={toggleMap}/>
+        <div className="fixed bottom-10 right-5 z-[9999] flex gap-2">
+          <Whatsapp />
+          <Ubication showMap={showMap} toggleMap={toggleMap} />
+        </div>
       <div>
         <Footer />
       </div>
