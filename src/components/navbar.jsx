@@ -15,7 +15,7 @@ const Navbar = () => {
       </div>
       <div className="bg-[#323232]">
         <div className="py-1 flex justify-center">
-          <p className="text-[#ae9a64] text-sm font-roboto italic">Sauce Grande Bajo Mz.K Lt.5 Tel. +51-964-289-904</p>
+          <p className="text-[#ae9a64] text-sm font-roboto italic">Sauce Grande Bajo Mz.K Lt.5 Tel. +51-946-602-797</p>
         </div>
       </div>
     </div>

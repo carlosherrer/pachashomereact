@@ -23,7 +23,7 @@ const Homepachas = () => {
       <div className="bg-[#fee5ca]">
         
         <div className="relative bg-black">
-          <div className="parallax" style={{ backgroundImage: "url('Mariachis.JPG')" }}>
+          <div className="parallax" style={{ backgroundImage: "url('Mariachis.webp')" }}>
             <div className="image-overlay"></div>
             <div className="absolute inset-0 flex flex-col justify-center text-center items-center text-white gap-14 md:gap-4">
               <p className="text-6xl md:text-8xl font-bold hover:text-red-600 tracking-tighter">PACHAS PARRILLAS</p>
@@ -36,7 +36,7 @@ const Homepachas = () => {
         </div>
 
         <div className="relative bg-black">
-          <div className="parallax2" style={{ backgroundImage: "url('comida-restaurante.jpg')" }}>
+          <div className="parallax2" style={{ backgroundImage: "url('comida-restaurante.webp')" }}>
             <div className="image-overlay2"></div>
             <div className="absolute inset-0 flex flex-col justify-center items-center text-white gap-4">
               <p className="text-3xl md:text-6xl md:mb-0 mb-12 font-bold tracking-widest text-[#ae9a64]">EL RESTAURANTE</p>
@@ -83,7 +83,7 @@ const Homepachas = () => {
         </div>
 
         <div className="md:flex hidden gap-10 justify-center py-12 z-0">
-          {["delivery.jpg", "recojo-tienda.jpg", "festividades.jpg", "reservas.jpg"].map((image, index) => (
+          {["delivery.webp", "recojo-tienda.webp", "festividades.webp", "reservas.webp"].map((image, index) => (
             <div key={index} className="img-container relative rounded-md">
               <img src={image} alt={image.split('.')[0]} className="hover-img" />
               <div className="overlay-text absolute inset-0 flex items-center justify-start">
